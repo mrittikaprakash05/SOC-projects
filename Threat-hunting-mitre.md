@@ -35,3 +35,4 @@ call instead of a full incident escalation.
 
 ## Screenshots
 [screenshot: threat hunting search results]
+<img width="875" height="436" alt="image" src="https://github.com/user-attachments/assets/504c9ff1-ef49-45c6-8056-539813773f77" />
