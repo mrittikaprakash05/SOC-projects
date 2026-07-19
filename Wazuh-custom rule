@@ -1,0 +1,45 @@
+# Custom Wazuh Detection Rule — Foreign IP Login Attempt
+
+## What this is
+Authored a custom Wazuh rule to detect SSH login attempts from IPs
+outside the trusted network, deployed it to the manager, and validated
+it fires correctly against a simulated attack.
+
+## The rule (local_rules.xml)
+\`\`\`xml
+<rule id="100200" level="7">
+  <if_sid>5760</if_sid>
+  <description>Login attempt from foreign IP detected</description>
+  <group>geoip,authentication,</group>
+</rule>
+\`\`\`
+
+## What I did
+1. Added the rule as a child of Wazuh's built-in SSH auth-failure rule.
+2. Debugged a silent failure: the example used parent rule ID 5716,
+   but that rule never actually matched this log format — swapped to
+   5760, which is what Wazuh's decoder actually fires on.
+3. Restarted the Wazuh manager/cluster to load the new rule.
+4. Generated a synthetic SSH failure log from an external IP (8.8.8.8)
+   and ran it through the Ruleset Test tool.
+5. Confirmed rule 100200 fired as expected, tagged with `geoip` and
+   `authentication` groups.
+
+## Result
+\`\`\`
+Phase 3: Completed filtering (rules).
+  id: '100200'
+  level: '7'
+  description: 'Login attempt from foreign IP detected'
+  firedtimes: '1'
+  Alert to be generated.
+\`\`\`
+
+## Key takeaway
+Copy-pasted tutorial rule IDs don't always match your actual decoder
+output — always validate against the ruleset test tool before assuming
+a rule works.
+
+## Screenshots
+[screenshot: rule editor]
+[screenshot: ruleset test result]
