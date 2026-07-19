@@ -42,4 +42,8 @@ a rule works.
 
 ## Screenshots
 [screenshot: rule editor]
+<img width="841" height="650" alt="image" src="https://github.com/user-attachments/assets/445f9e96-0e2d-44f8-8bbf-0b5a76812f55" />
+
 [screenshot: ruleset test result]
+<img width="809" height="539" alt="image" src="https://github.com/user-attachments/assets/2f871a2d-f127-4561-ba2e-44f47a657956" />
+
