@@ -9,10 +9,10 @@ automated incident response.
 
 | Project | Platform | Skill Demonstrated |
 |---|---|---|
-| [End-to-End SOC Pipeline](./Elastic-SOC-pipeline) | Elastic (EDR) | Cloud SIEM, endpoint telemetry, custom detection rules |
-| [Custom GeoIP Detection Rule](./Wazuh-custom-rule) | Wazuh | Detection engineering, rule authoring |
-| [Automated Firewall Response](./Wazuh-active-response) | Wazuh | Active response, containment automation |
-| [Threat Hunting w/ IOCs](./Threat-hunting-mitre) | Wazuh | MITRE ATT&CK mapping, threat intel correlation |
+| [End-to-End SOC Pipeline](./Elastic-SOC-pipeline.md) | Elastic (EDR) | Cloud SIEM, endpoint telemetry, custom detection rules |
+| [Custom GeoIP Detection Rule](./Wazuh-custom-rule.md) | Wazuh | Detection engineering, rule authoring |
+| [Automated Firewall Response](./Wazuh-active-response.md) | Wazuh | Active response, containment automation |
+| [Threat Hunting w/ IOCs](./Threat-hunting-mitre.md) | Wazuh | MITRE ATT&CK mapping, threat intel correlation |
 
 ## About
 SOC-trained security analyst with hands-on experience across the
