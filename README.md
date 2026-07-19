@@ -24,4 +24,4 @@ incident response capability, not just tool familiarity.
 **Tools used across these projects:** Splunk, Wazuh, Elastic Security
 (Elastic Defend/EDR), Kibana, VirtualBox, Kali Linux, iptables
 
-**Connect:** [LinkedIn](www.linkedin.com/in/mrittika-prakash-311680271) · [Resume](link-if-you-have-one)
+**Connect:** [LinkedIn](www.linkedin.com/in/mrittika-prakash-311680271) · [Resume](https://docs.google.com/document/d/1RpWoSXkp-FcUZvAAthQy43-mf3qiQvwi/edit?usp=drive_link&ouid=104692039915825544597&rtpof=true&sd=true)
