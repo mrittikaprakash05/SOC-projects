@@ -39,4 +39,8 @@ acting on it automatically.
 
 ## Screenshots
 [screenshot: iptables output]
+<img width="813" height="648" alt="image" src="https://github.com/user-attachments/assets/19e4b601-e689-40e7-ac2e-39f859f12c44" />
+
 [screenshot: agent status]
+<img width="813" height="283" alt="image" src="https://github.com/user-attachments/assets/77bac6c1-2e20-48ad-9a4a-8d4c42d2059f" />
+
